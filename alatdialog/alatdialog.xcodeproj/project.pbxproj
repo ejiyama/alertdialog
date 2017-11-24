@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870FF1371FC801F400C86C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FF1361FC801F400C86C39 /* AppDelegate.swift */; };
+		870FF1391FC801F400C86C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FF1381FC801F400C86C39 /* ViewController.swift */; };
+		870FF13C1FC801F400C86C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870FF13A1FC801F400C86C39 /* Main.storyboard */; };
+		870FF13E1FC801F400C86C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870FF13D1FC801F400C86C39 /* Assets.xcassets */; };
+		870FF1411FC801F400C86C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870FF13F1FC801F400C86C39 /* LaunchScreen.storyboard */; };
+		870FF14C1FC801F400C86C39 /* alatdialogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FF14B1FC801F400C86C39 /* alatdialogTests.swift */; };
+		870FF1571FC801F400C86C39 /* alatdialogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FF1561FC801F400C86C39 /* alatdialogUITests.swift */; };
+		870FF1651FC81D8100C86C39 /* atasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FF1641FC81D8100C86C39 /* atasViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		870FF1481FC801F400C86C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870FF12B1FC801F400C86C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870FF1321FC801F400C86C39;
+			remoteInfo = alatdialog;
+		};
+		870FF1531FC801F400C86C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 870FF12B1FC801F400C86C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 870FF1321FC801F400C86C39;
+			remoteInfo = alatdialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		870FF1331FC801F400C86C39 /* alatdialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alatdialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		870FF1361FC801F400C86C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		870FF1381FC801F400C86C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		870FF13B1FC801F400C86C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870FF13D1FC801F400C86C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		870FF1401FC801F400C86C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		870FF1421FC801F400C86C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870FF1471FC801F400C86C39 /* alatdialogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alatdialogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870FF14B1FC801F400C86C39 /* alatdialogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alatdialogTests.swift; sourceTree = "<group>"; };
+		870FF14D1FC801F400C86C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870FF1521FC801F400C86C39 /* alatdialogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alatdialogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		870FF1561FC801F400C86C39 /* alatdialogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alatdialogUITests.swift; sourceTree = "<group>"; };
+		870FF1581FC801F400C86C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870FF1641FC81D8100C86C39 /* atasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atasViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870FF1301FC801F400C86C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870FF1441FC801F400C86C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870FF14F1FC801F400C86C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		870FF12A1FC801F400C86C39 = {
+			isa = PBXGroup;
+			children = (
+				870FF1351FC801F400C86C39 /* alatdialog */,
+				870FF14A1FC801F400C86C39 /* alatdialogTests */,
+				870FF1551FC801F400C86C39 /* alatdialogUITests */,
+				870FF1341FC801F400C86C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		870FF1341FC801F400C86C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870FF1331FC801F400C86C39 /* alatdialog.app */,
+				870FF1471FC801F400C86C39 /* alatdialogTests.xctest */,
+				870FF1521FC801F400C86C39 /* alatdialogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870FF1351FC801F400C86C39 /* alatdialog */ = {
+			isa = PBXGroup;
+			children = (
+				870FF1361FC801F400C86C39 /* AppDelegate.swift */,
+				870FF1381FC801F400C86C39 /* ViewController.swift */,
+				870FF13A1FC801F400C86C39 /* Main.storyboard */,
+				870FF1641FC81D8100C86C39 /* atasViewController.swift */,
+				870FF13D1FC801F400C86C39 /* Assets.xcassets */,
+				870FF13F1FC801F400C86C39 /* LaunchScreen.storyboard */,
+				870FF1421FC801F400C86C39 /* Info.plist */,
+			);
+			path = alatdialog;
+			sourceTree = "<group>";
+		};
+		870FF14A1FC801F400C86C39 /* alatdialogTests */ = {
+			isa = PBXGroup;
+			children = (
+				870FF14B1FC801F400C86C39 /* alatdialogTests.swift */,
+				870FF14D1FC801F400C86C39 /* Info.plist */,
+			);
+			path = alatdialogTests;
+			sourceTree = "<group>";
+		};
+		870FF1551FC801F400C86C39 /* alatdialogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				870FF1561FC801F400C86C39 /* alatdialogUITests.swift */,
+				870FF1581FC801F400C86C39 /* Info.plist */,
+			);
+			path = alatdialogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870FF1321FC801F400C86C39 /* alatdialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870FF15B1FC801F400C86C39 /* Build configuration list for PBXNativeTarget "alatdialog" */;
+			buildPhases = (
+				870FF12F1FC801F400C86C39 /* Sources */,
+				870FF1301FC801F400C86C39 /* Frameworks */,
+				870FF1311FC801F400C86C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alatdialog;
+			productName = alatdialog;
+			productReference = 870FF1331FC801F400C86C39 /* alatdialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		870FF1461FC801F400C86C39 /* alatdialogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870FF15E1FC801F400C86C39 /* Build configuration list for PBXNativeTarget "alatdialogTests" */;
+			buildPhases = (
+				870FF1431FC801F400C86C39 /* Sources */,
+				870FF1441FC801F400C86C39 /* Frameworks */,
+				870FF1451FC801F400C86C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870FF1491FC801F400C86C39 /* PBXTargetDependency */,
+			);
+			name = alatdialogTests;
+			productName = alatdialogTests;
+			productReference = 870FF1471FC801F400C86C39 /* alatdialogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		870FF1511FC801F400C86C39 /* alatdialogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870FF1611FC801F400C86C39 /* Build configuration list for PBXNativeTarget "alatdialogUITests" */;
+			buildPhases = (
+				870FF14E1FC801F400C86C39 /* Sources */,
+				870FF14F1FC801F400C86C39 /* Frameworks */,
+				870FF1501FC801F400C86C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				870FF1541FC801F400C86C39 /* PBXTargetDependency */,
+			);
+			name = alatdialogUITests;
+			productName = alatdialogUITests;
+			productReference = 870FF1521FC801F400C86C39 /* alatdialogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870FF12B1FC801F400C86C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "W2K Project";
+				TargetAttributes = {
+					870FF1321FC801F400C86C39 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					870FF1461FC801F400C86C39 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 870FF1321FC801F400C86C39;
+					};
+					870FF1511FC801F400C86C39 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 870FF1321FC801F400C86C39;
+					};
+				};
+			};
+			buildConfigurationList = 870FF12E1FC801F400C86C39 /* Build configuration list for PBXProject "alatdialog" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870FF12A1FC801F400C86C39;
+			productRefGroup = 870FF1341FC801F400C86C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870FF1321FC801F400C86C39 /* alatdialog */,
+				870FF1461FC801F400C86C39 /* alatdialogTests */,
+				870FF1511FC801F400C86C39 /* alatdialogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870FF1311FC801F400C86C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870FF1411FC801F400C86C39 /* LaunchScreen.storyboard in Resources */,
+				870FF13E1FC801F400C86C39 /* Assets.xcassets in Resources */,
+				870FF13C1FC801F400C86C39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870FF1451FC801F400C86C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870FF1501FC801F400C86C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870FF12F1FC801F400C86C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870FF1391FC801F400C86C39 /* ViewController.swift in Sources */,
+				870FF1371FC801F400C86C39 /* AppDelegate.swift in Sources */,
+				870FF1651FC81D8100C86C39 /* atasViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870FF1431FC801F400C86C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870FF14C1FC801F400C86C39 /* alatdialogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		870FF14E1FC801F400C86C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870FF1571FC801F400C86C39 /* alatdialogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		870FF1491FC801F400C86C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870FF1321FC801F400C86C39 /* alatdialog */;
+			targetProxy = 870FF1481FC801F400C86C39 /* PBXContainerItemProxy */;
+		};
+		870FF1541FC801F400C86C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 870FF1321FC801F400C86C39 /* alatdialog */;
+			targetProxy = 870FF1531FC801F400C86C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		870FF13A1FC801F400C86C39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870FF13B1FC801F400C86C39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870FF13F1FC801F400C86C39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870FF1401FC801F400C86C39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870FF1591FC801F400C86C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		870FF15A1FC801F400C86C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870FF15C1FC801F400C86C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alatdialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azzam.alatdialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		870FF15D1FC801F400C86C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alatdialog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azzam.alatdialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		870FF15F1FC801F400C86C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alatdialogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azzam.alatdialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alatdialog.app/alatdialog";
+			};
+			name = Debug;
+		};
+		870FF1601FC801F400C86C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alatdialogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azzam.alatdialogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alatdialog.app/alatdialog";
+			};
+			name = Release;
+		};
+		870FF1621FC801F400C86C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alatdialogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azzam.alatdialogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alatdialog;
+			};
+			name = Debug;
+		};
+		870FF1631FC801F400C86C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alatdialogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Azzam.alatdialogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alatdialog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870FF12E1FC801F400C86C39 /* Build configuration list for PBXProject "alatdialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870FF1591FC801F400C86C39 /* Debug */,
+				870FF15A1FC801F400C86C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870FF15B1FC801F400C86C39 /* Build configuration list for PBXNativeTarget "alatdialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870FF15C1FC801F400C86C39 /* Debug */,
+				870FF15D1FC801F400C86C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870FF15E1FC801F400C86C39 /* Build configuration list for PBXNativeTarget "alatdialogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870FF15F1FC801F400C86C39 /* Debug */,
+				870FF1601FC801F400C86C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870FF1611FC801F400C86C39 /* Build configuration list for PBXNativeTarget "alatdialogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870FF1621FC801F400C86C39 /* Debug */,
+				870FF1631FC801F400C86C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 870FF12B1FC801F400C86C39 /* Project object */;
+}
